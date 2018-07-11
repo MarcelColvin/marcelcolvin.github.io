@@ -56,14 +56,19 @@ body{
 
 header{
   background: #a2a2a2;
-  padding: 50px;
+  background-image: url(images/header_image2.jpg);
+  background-position: 0% 25%;
+  background-repeat: no-repeat;
+  padding: 175px;
 }
 
 header h1 {
-  font-size: 36px;
-  font-weight: bold;
-  color: #fff;
+  font-size: 100px;
+  font-weight: bolder;
+  color: #ff0000;
   text-align: center;
+
+
 }
 
 nav ul li {
@@ -72,8 +77,8 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  width: 340px;
-  background: #4e9efc;
+  width: 255px;
+  background: #002994;
   text-transform: uppercase;
   text-align: center;
   line-height: 40px;
@@ -89,8 +94,8 @@ nav ul li a:hover {
 section {
   float: left;
   width: 800px;
-  margin-right: 110px;
-  margin-left: 110px;
+  margin-right: 40px;
+  margin-left: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
   line-height: 20px;
@@ -141,18 +146,10 @@ sub {
     padding-bottom: 20px;
 }
 
-.crop_fields{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 footer {
   clear: both;
-  background-color: #4e9efc;
+  background-color: #002994;
   padding: 20px;
   line-height: 20px;
   font-size: 12px;
