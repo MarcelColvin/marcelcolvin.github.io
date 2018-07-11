@@ -55,7 +55,7 @@ body{
 }
 
 header{
-  background: #00437F;
+  background: #a2a2a2;
   padding: 50px;
 }
 
@@ -73,7 +73,7 @@ nav ul li {
 nav ul li a {
   display: block;
   width: 340px;
-  background: #F9C73D;
+  background: #4e9efc;
   text-transform: uppercase;
   text-align: center;
   line-height: 40px;
@@ -115,7 +115,7 @@ p {
   margin-bottom: 4px;
 }
 
-p.first {
+p.ind {
 text-indent: 3em;
 }
 p.bib {
@@ -149,32 +149,10 @@ sub {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.box_plot{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 65%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}/*a*/
-.entropy{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 55%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.figure {
-  font-size: 10px;
-  text-align: center;
-  padding-bottom: 20px;
-}
 
 footer {
   clear: both;
-  background-color: #00437F;
+  background-color: #4e9efc;
   padding: 20px;
   line-height: 20px;
   font-size: 12px;
