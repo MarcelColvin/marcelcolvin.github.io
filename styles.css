@@ -65,7 +65,7 @@ header{
 header h1 {
   font-size: 100px;
   font-weight: bolder;
-  color: #ff0000;
+  color: #3B5641;
   text-align: center;
 
 
@@ -78,7 +78,7 @@ nav ul li {
 nav ul li a {
   display: block;
   width: 255px;
-  background: #002994;
+  background: #0B3F25;
   text-transform: uppercase;
   text-align: center;
   line-height: 40px;
@@ -149,7 +149,7 @@ sub {
 
 footer {
   clear: both;
-  background-color: #002994;
+  background-color: #0B3F25;
   padding: 20px;
   line-height: 20px;
   font-size: 12px;
