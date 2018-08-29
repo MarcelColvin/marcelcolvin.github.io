@@ -56,49 +56,59 @@ body{
 
 header{
   background: #a2a2a2;
-  background-image: url(images/header_image2.jpg);
-  background-position: 0% 25%;
+  background-image: url(images/mountain.jpg);
   background-repeat: no-repeat;
-  padding: 175px;
+  padding: 0px;
 }
 
 header h1 {
   font-size: 100px;
   font-weight: bolder;
-  color: #3B5641;
+  color:#FDB515 ;
   text-align: center;
-
-
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
-nav ul li {
-  float: left;
+nav ul {
+  display: flex;
 }
 
 nav ul li a {
   display: block;
-  width: 255px;
-  background: #0B3F25;
+  width: 340px;
+  padding-top: 25px;
   text-transform: uppercase;
   text-align: center;
   line-height: 40px;
-  color: #fff;
+  color: #000;
 	font-size: 18px;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #000;
+  color: #FDB515;
 }
 
 section {
   float: left;
+  flex:1;
   width: 800px;
-  margin-right: 40px;
-  margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   line-height: 20px;
+}
+
+.mypic{
+  float:left;
+  margin-right:25px;
+}
+
+.about{
+  float:left;
+  margin-top:5px;
 }
 
 h2 {
@@ -123,9 +133,6 @@ p {
 p.ind {
 text-indent: 3em;
 }
-p.bib {
-  margin-bottom: 7px;
-}
 
 sup {
     vertical-align: super;
@@ -149,7 +156,7 @@ sub {
 
 footer {
   clear: both;
-  background-color: #0B3F25;
+  background-color: #003262;
   padding: 20px;
   line-height: 20px;
   font-size: 12px;
